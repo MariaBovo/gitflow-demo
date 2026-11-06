@@ -1,8 +1,8 @@
-"""Testes da lista de compras. Rode com: python -m unittest"""
+#Testes da lista de compras. Rode com: python -m unittest
+
 import unittest
 
 from lista_compras import ListaDeCompras
-
 
 class TestListaDeCompras(unittest.TestCase):
     def setUp(self):
@@ -29,7 +29,6 @@ class TestListaDeCompras(unittest.TestCase):
     def test_erro_ao_remover_item_inexistente(self):
         with self.assertRaises(ValueError):
             self.lista.remover("Pão")
-
 
 if __name__ == "__main__":
     unittest.main()

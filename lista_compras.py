@@ -1,10 +1,9 @@
-"""Regras da lista de compras."""
-
+#Regras da lista de compras.
 
 class ListaDeCompras:
     def __init__(self):
         self.itens = []
-
+        
     def adicionar(self, item):
         item = item.strip()
         if not item:

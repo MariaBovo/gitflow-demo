@@ -1,4 +1,5 @@
-"""Menu interativo da lista de compras."""
+#Menu interativo da lista de compras.
+
 from lista_compras import ListaDeCompras
 
 
@@ -36,7 +37,6 @@ def main():
                 print("Opção inválida.")
         except ValueError as erro:
             print(f"Erro: {erro}")
-
 
 if __name__ == "__main__":
     main()
